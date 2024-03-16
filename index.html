@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon"  type = "image/png" href="https://cdn-icons-png.freepik.com/512/686/686165.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type = "text/css" href="style.css">
+    <title>Sanket Portfolio</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <!--nav-bar starts here -->
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><span class = "brand tracking-in-expand">Sanket</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home"><span class = "navmenu">Home</span><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects"><span class="navmenu">Projects</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span class="navmenu">Contact</span></a>
+                  </li>
+               
+              </ul>
+              
+              
+            </div>
+          </nav>
+
+
+
+    </div>
+    <!--nav-bar ends here-->
+    <div class=" main-container">
+      <section id = "home" class ="portfolio-sections">
+        <div id = "home-info">
+          <span class="info">Hi </span><br/>
+          <span class="info">My name is </span><br>
+          <span class="brand myname">Sanket</span><br>
+          <span class="info">I am <span class="designation">Full Stack Developer</span></span>
+          <button href="demo.pdf" class="rsmbtn">RESUME</button>
+
+        </div>
+       
+      </section>
+      <section id="about" class="portfolio-section about-section">
+        <div class = "aboutmain">
+          <div class = "myimage">
+            <img  class = "minion kenburns-bottom"src="https://www.zdnet.com/a/img/resize/adcb2eb2cc3f5562f7e80931308e2a08b01947ce/2019/08/19/4a663776-f4a9-4f89-9bee-2d07ee052f5b/istock-1147195672-11.jpg?auto=webp&fit=crop&height=900&width=1200" height="300px" alt="" >
+          </div>
+        <div class = "carrerobj">
+          <h1 class = "heading">ABOUT</h1>
+          <p class = "carrerinfo">
+            Seeking the job role of Full Stack Developer wherein I can apply my knowledge 
+            & experience gained from past projects while working on new challenges
+            & tasks assigned by the team leader or supervisor.
+          </p>
+        </div>
+      </div>
+      </section>
+      <section id="skills" class="portfolio-sections">
+          <h1>SKILLS</h1>
+      </section>
+      <section id="projects" class="portfolio-sections">
+          <h1>PROJECTS</h1>
+      </section>
+      <section id="contact" class="portfolio-sections">
+          <h1>CONTACT</h1>
+      </section>
+    </div>
 </body>
 </html>
+
